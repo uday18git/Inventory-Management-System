@@ -61,6 +61,34 @@ Handles the order placement workflow.
 
 ---
 
+## Database Schemas
+
+### `products` Database Schema
+The `products` database stores information about available products.
+
+**Table: products**
+| Column       | Type        | Constraints           |
+|--------------|-------------|-----------------------|
+| id           | BIGINT      | PRIMARY KEY, AUTO_INCREMENT |
+| name         | VARCHAR(255)| NOT NULL             |
+| description  | TEXT        |                       |
+| price        | DOUBLE      | NOT NULL             |
+| quantity     | INT         | NOT NULL             |
+
+### `orders` Database Schema
+The `orders` database stores details of placed orders.
+
+**Table: orders**
+| Column       | Type        | Constraints           |
+|--------------|-------------|-----------------------|
+| id           | BIGINT      | PRIMARY KEY, AUTO_INCREMENT |
+| productId    | BIGINT      | NOT NULL             |
+| quantity     | INT         | NOT NULL             |
+| status       | VARCHAR(50) | NOT NULL             |
+
+---
+
+
 ## Dependencies
 ### Common Dependencies (for all services):
 - Spring Boot Starter Web
