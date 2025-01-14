@@ -1,6 +1,10 @@
 # Inventory Management System - Microservices Project
+https://github.com/user-attachments/assets/bf5892e9-d06d-4d87-a929-a53264c108fb
 
 ## Table of Contents
+
+
+
 1. [Project Overview](#project-overview)
 2. [Architecture](#architecture)
 3. [Technologies Used](#technologies-used)
