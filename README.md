@@ -5,11 +5,12 @@
 2. [Architecture](#architecture)
 3. [Technologies Used](#technologies-used)
 4. [Services Description](#services-description)
-5. [Dependencies](#dependencies)
-6. [Setup Instructions](#setup-instructions)
-7. [Usage](#usage)
-8. [APIs](#apis)
-9. [Future Enhancements](#future-enhancements)
+5. [Database Schemas](#database-schemas)
+6. [Dependencies](#dependencies)
+7. [Setup Instructions](#setup-instructions)
+8. [Usage](#usage)
+9. [APIs](#apis)
+10. [Future Enhancements](#future-enhancements)
 
 ---
 
